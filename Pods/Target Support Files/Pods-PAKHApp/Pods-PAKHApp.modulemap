@@ -1,0 +1,6 @@
+framework module Pods_PAKHApp {
+  umbrella header "Pods-PAKHApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

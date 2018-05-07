@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18981CCA2102752493D3FD20 /* Pods_PAKHApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C720567FA74D64D1A3BD7B7 /* Pods_PAKHApp.framework */; };
+		DF16F522201F0638003FA87A /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF16F51A201F0637003FA87A /* Ubuntu-Medium.ttf */; };
+		DF16F523201F0638003FA87A /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF16F51B201F0637003FA87A /* Ubuntu-LightItalic.ttf */; };
+		DF16F524201F0638003FA87A /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF16F51C201F0637003FA87A /* Ubuntu-Regular.ttf */; };
+		DF16F525201F0638003FA87A /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF16F51D201F0637003FA87A /* Ubuntu-Bold.ttf */; };
+		DF16F526201F0638003FA87A /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF16F51E201F0637003FA87A /* Ubuntu-MediumItalic.ttf */; };
+		DF16F527201F0638003FA87A /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF16F51F201F0637003FA87A /* Ubuntu-BoldItalic.ttf */; };
+		DF16F528201F0638003FA87A /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF16F520201F0637003FA87A /* Ubuntu-Italic.ttf */; };
+		DF16F529201F0638003FA87A /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF16F521201F0637003FA87A /* Ubuntu-Light.ttf */; };
+		DF16F52B201F0AEF003FA87A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16F52A201F0AEF003FA87A /* Helper.swift */; };
+		DF16F52D201F163B003FA87A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16F52C201F163B003FA87A /* SearchViewController.swift */; };
+		DF16F531201F19B2003FA87A /* HandleIssuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16F530201F19B2003FA87A /* HandleIssuseViewController.swift */; };
+		DF16F53520201EA2003FA87A /* SkyFloatPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16F53420201EA2003FA87A /* SkyFloatPicker.swift */; };
+		DF16F537202067CB003FA87A /* AddIssuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16F536202067CB003FA87A /* AddIssuseViewController.swift */; };
+		DF59884820224D1A009B8AE0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF59884720224D1A009B8AE0 /* ResultViewController.swift */; };
+		DF61BAC5204CD92000728E3B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61BAC4204CD92000728E3B /* MenuViewController.swift */; };
+		DF61BAC7204CDCBE00728E3B /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61BAC6204CDCBE00728E3B /* MenuCell.swift */; };
+		DF9DEEBA202C0F0800B9119F /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DEEB9202C0F0800B9119F /* Record.swift */; };
+		DFAF44D9204FD706004CDE71 /* HandleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF44D8204FD706004CDE71 /* HandleViewController.swift */; };
+		DFB1203B20211C5B0001D813 /* SkyCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB1203A20211C5B0001D813 /* SkyCheckbox.swift */; };
+		DFB3AD7A201E1E3A006B9F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB3AD79201E1E3A006B9F41 /* AppDelegate.swift */; };
+		DFB3AD7C201E1E3A006B9F41 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB3AD7B201E1E3A006B9F41 /* LoginViewController.swift */; };
+		DFB3AD7F201E1E3A006B9F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB3AD7D201E1E3A006B9F41 /* Main.storyboard */; };
+		DFB3AD81201E1E3A006B9F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB3AD80201E1E3A006B9F41 /* Assets.xcassets */; };
+		DFB3AD84201E1E3A006B9F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB3AD82201E1E3A006B9F41 /* LaunchScreen.storyboard */; };
+		DFCE9C542022BB700080137F /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCE9C532022BB700080137F /* ResultCell.swift */; };
+		DFCE9C562022FF9E0080137F /* SkyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCE9C552022FF9E0080137F /* SkyInfoView.swift */; };
+		DFCE9C5820230B9C0080137F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCE9C5720230B9C0080137F /* DetailViewController.swift */; };
+		DFF3F92D202A9C43008BDD97 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF3F92C202A9C43008BDD97 /* User.swift */; };
+		DFF3F92F202AA09A008BDD97 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF3F92E202AA09A008BDD97 /* Api.swift */; };
+		DFF3F931202ADDA4008BDD97 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF3F930202ADDA4008BDD97 /* Request.swift */; };
+		DFF3F933202B02B3008BDD97 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF3F932202B02B3008BDD97 /* Department.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03F50AE6CE1E68826B1AEC52 /* Pods-PAKHApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAKHApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PAKHApp/Pods-PAKHApp.release.xcconfig"; sourceTree = "<group>"; };
+		32A93C9E115646D7BEA370A4 /* Pods-PAKHApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAKHApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PAKHApp/Pods-PAKHApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6C720567FA74D64D1A3BD7B7 /* Pods_PAKHApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PAKHApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF16F51A201F0637003FA87A /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		DF16F51B201F0637003FA87A /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		DF16F51C201F0637003FA87A /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		DF16F51D201F0637003FA87A /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		DF16F51E201F0637003FA87A /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		DF16F51F201F0637003FA87A /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DF16F520201F0637003FA87A /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		DF16F521201F0637003FA87A /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		DF16F52A201F0AEF003FA87A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		DF16F52C201F163B003FA87A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DF16F530201F19B2003FA87A /* HandleIssuseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleIssuseViewController.swift; sourceTree = "<group>"; };
+		DF16F53420201EA2003FA87A /* SkyFloatPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFloatPicker.swift; sourceTree = "<group>"; };
+		DF16F536202067CB003FA87A /* AddIssuseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIssuseViewController.swift; sourceTree = "<group>"; };
+		DF59884720224D1A009B8AE0 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		DF61BAC4204CD92000728E3B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DF61BAC6204CDCBE00728E3B /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		DF9DEEB9202C0F0800B9119F /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		DFAF44D8204FD706004CDE71 /* HandleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleViewController.swift; sourceTree = "<group>"; };
+		DFB1203A20211C5B0001D813 /* SkyCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyCheckbox.swift; sourceTree = "<group>"; };
+		DFB3AD76201E1E3A006B9F41 /* PAKHApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAKHApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB3AD79201E1E3A006B9F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFB3AD7B201E1E3A006B9F41 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DFB3AD7E201E1E3A006B9F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB3AD80201E1E3A006B9F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB3AD83201E1E3A006B9F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFB3AD85201E1E3A006B9F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCE9C532022BB700080137F /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		DFCE9C552022FF9E0080137F /* SkyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyInfoView.swift; sourceTree = "<group>"; };
+		DFCE9C5720230B9C0080137F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DFF3F92C202A9C43008BDD97 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DFF3F92E202AA09A008BDD97 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		DFF3F930202ADDA4008BDD97 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		DFF3F932202B02B3008BDD97 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB3AD73201E1E3A006B9F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18981CCA2102752493D3FD20 /* Pods_PAKHApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		810221075F0B2576D3469D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32A93C9E115646D7BEA370A4 /* Pods-PAKHApp.debug.xcconfig */,
+				03F50AE6CE1E68826B1AEC52 /* Pods-PAKHApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88805E9BA9286768EEFDCA8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C720567FA74D64D1A3BD7B7 /* Pods_PAKHApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF16F519201F0637003FA87A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DF16F51A201F0637003FA87A /* Ubuntu-Medium.ttf */,
+				DF16F51B201F0637003FA87A /* Ubuntu-LightItalic.ttf */,
+				DF16F51C201F0637003FA87A /* Ubuntu-Regular.ttf */,
+				DF16F51D201F0637003FA87A /* Ubuntu-Bold.ttf */,
+				DF16F51E201F0637003FA87A /* Ubuntu-MediumItalic.ttf */,
+				DF16F51F201F0637003FA87A /* Ubuntu-BoldItalic.ttf */,
+				DF16F520201F0637003FA87A /* Ubuntu-Italic.ttf */,
+				DF16F521201F0637003FA87A /* Ubuntu-Light.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DF16F53220201E6C003FA87A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DFAF44D7204FD6EF004CDE71 /* Handle */,
+				DFB3AD7B201E1E3A006B9F41 /* LoginViewController.swift */,
+				DF16F52C201F163B003FA87A /* SearchViewController.swift */,
+				DF16F536202067CB003FA87A /* AddIssuseViewController.swift */,
+				DF59884720224D1A009B8AE0 /* ResultViewController.swift */,
+				DFCE9C5720230B9C0080137F /* DetailViewController.swift */,
+				DF61BAC4204CD92000728E3B /* MenuViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DF16F53320201E7B003FA87A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DFB3AD79201E1E3A006B9F41 /* AppDelegate.swift */,
+				DF16F52A201F0AEF003FA87A /* Helper.swift */,
+				DF16F53420201EA2003FA87A /* SkyFloatPicker.swift */,
+				DFB1203A20211C5B0001D813 /* SkyCheckbox.swift */,
+				DFCE9C552022FF9E0080137F /* SkyInfoView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DFAF44D7204FD6EF004CDE71 /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+				DF16F530201F19B2003FA87A /* HandleIssuseViewController.swift */,
+				DFAF44D8204FD706004CDE71 /* HandleViewController.swift */,
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		DFB3AD6D201E1E3A006B9F41 = {
+			isa = PBXGroup;
+			children = (
+				DFB3AD78201E1E3A006B9F41 /* PAKHApp */,
+				DFB3AD77201E1E3A006B9F41 /* Products */,
+				810221075F0B2576D3469D7C /* Pods */,
+				88805E9BA9286768EEFDCA8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB3AD77201E1E3A006B9F41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB3AD76201E1E3A006B9F41 /* PAKHApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB3AD78201E1E3A006B9F41 /* PAKHApp */ = {
+			isa = PBXGroup;
+			children = (
+				DFF3F92B202A9C2F008BDD97 /* Model */,
+				DFCE9C522022BB610080137F /* Cell */,
+				DF16F53320201E7B003FA87A /* Helpers */,
+				DF16F53220201E6C003FA87A /* ViewControllers */,
+				DFB3AD7D201E1E3A006B9F41 /* Main.storyboard */,
+				DFB3AD80201E1E3A006B9F41 /* Assets.xcassets */,
+				DF16F519201F0637003FA87A /* Fonts */,
+				DFB3AD82201E1E3A006B9F41 /* LaunchScreen.storyboard */,
+				DFB3AD85201E1E3A006B9F41 /* Info.plist */,
+			);
+			path = PAKHApp;
+			sourceTree = "<group>";
+		};
+		DFCE9C522022BB610080137F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DFCE9C532022BB700080137F /* ResultCell.swift */,
+				DF61BAC6204CDCBE00728E3B /* MenuCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DFF3F92B202A9C2F008BDD97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFF3F92C202A9C43008BDD97 /* User.swift */,
+				DFF3F92E202AA09A008BDD97 /* Api.swift */,
+				DFF3F930202ADDA4008BDD97 /* Request.swift */,
+				DFF3F932202B02B3008BDD97 /* Department.swift */,
+				DF9DEEB9202C0F0800B9119F /* Record.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB3AD75201E1E3A006B9F41 /* PAKHApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB3AD88201E1E3A006B9F41 /* Build configuration list for PBXNativeTarget "PAKHApp" */;
+			buildPhases = (
+				2677F001DEC5F198FBBEF7A7 /* [CP] Check Pods Manifest.lock */,
+				DFB3AD72201E1E3A006B9F41 /* Sources */,
+				DFB3AD73201E1E3A006B9F41 /* Frameworks */,
+				DFB3AD74201E1E3A006B9F41 /* Resources */,
+				74361C129EBAD6B2136D51E5 /* [CP] Embed Pods Frameworks */,
+				F6C9F0A2743FF5F5EFEBF5E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PAKHApp;
+			productName = PAKHApp;
+			productReference = DFB3AD76201E1E3A006B9F41 /* PAKHApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB3AD6E201E1E3A006B9F41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tung Vu";
+				TargetAttributes = {
+					DFB3AD75201E1E3A006B9F41 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DFB3AD71201E1E3A006B9F41 /* Build configuration list for PBXProject "PAKHApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB3AD6D201E1E3A006B9F41;
+			productRefGroup = DFB3AD77201E1E3A006B9F41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB3AD75201E1E3A006B9F41 /* PAKHApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB3AD74201E1E3A006B9F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF16F524201F0638003FA87A /* Ubuntu-Regular.ttf in Resources */,
+				DF16F523201F0638003FA87A /* Ubuntu-LightItalic.ttf in Resources */,
+				DF16F527201F0638003FA87A /* Ubuntu-BoldItalic.ttf in Resources */,
+				DF16F528201F0638003FA87A /* Ubuntu-Italic.ttf in Resources */,
+				DF16F529201F0638003FA87A /* Ubuntu-Light.ttf in Resources */,
+				DF16F526201F0638003FA87A /* Ubuntu-MediumItalic.ttf in Resources */,
+				DFB3AD84201E1E3A006B9F41 /* LaunchScreen.storyboard in Resources */,
+				DFB3AD81201E1E3A006B9F41 /* Assets.xcassets in Resources */,
+				DF16F525201F0638003FA87A /* Ubuntu-Bold.ttf in Resources */,
+				DF16F522201F0638003FA87A /* Ubuntu-Medium.ttf in Resources */,
+				DFB3AD7F201E1E3A006B9F41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2677F001DEC5F198FBBEF7A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PAKHApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74361C129EBAD6B2136D51E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PAKHApp/Pods-PAKHApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PAKHApp/Pods-PAKHApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C9F0A2743FF5F5EFEBF5E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PAKHApp/Pods-PAKHApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB3AD72201E1E3A006B9F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAF44D9204FD706004CDE71 /* HandleViewController.swift in Sources */,
+				DFCE9C5820230B9C0080137F /* DetailViewController.swift in Sources */,
+				DFF3F931202ADDA4008BDD97 /* Request.swift in Sources */,
+				DF9DEEBA202C0F0800B9119F /* Record.swift in Sources */,
+				DFB3AD7C201E1E3A006B9F41 /* LoginViewController.swift in Sources */,
+				DFF3F933202B02B3008BDD97 /* Department.swift in Sources */,
+				DFB3AD7A201E1E3A006B9F41 /* AppDelegate.swift in Sources */,
+				DF61BAC7204CDCBE00728E3B /* MenuCell.swift in Sources */,
+				DFF3F92F202AA09A008BDD97 /* Api.swift in Sources */,
+				DFCE9C562022FF9E0080137F /* SkyInfoView.swift in Sources */,
+				DF16F53520201EA2003FA87A /* SkyFloatPicker.swift in Sources */,
+				DF16F531201F19B2003FA87A /* HandleIssuseViewController.swift in Sources */,
+				DFF3F92D202A9C43008BDD97 /* User.swift in Sources */,
+				DFCE9C542022BB700080137F /* ResultCell.swift in Sources */,
+				DFB1203B20211C5B0001D813 /* SkyCheckbox.swift in Sources */,
+				DF61BAC5204CD92000728E3B /* MenuViewController.swift in Sources */,
+				DF59884820224D1A009B8AE0 /* ResultViewController.swift in Sources */,
+				DF16F537202067CB003FA87A /* AddIssuseViewController.swift in Sources */,
+				DF16F52D201F163B003FA87A /* SearchViewController.swift in Sources */,
+				DF16F52B201F0AEF003FA87A /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFB3AD7D201E1E3A006B9F41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB3AD7E201E1E3A006B9F41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB3AD82201E1E3A006B9F41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB3AD83201E1E3A006B9F41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB3AD86201E1E3A006B9F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFB3AD87201E1E3A006B9F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB3AD89201E1E3A006B9F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32A93C9E115646D7BEA370A4 /* Pods-PAKHApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQ9SAN436E;
+				INFOPLIST_FILE = PAKHApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tars.PAKHApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFB3AD8A201E1E3A006B9F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F50AE6CE1E68826B1AEC52 /* Pods-PAKHApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQ9SAN436E;
+				INFOPLIST_FILE = PAKHApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tars.PAKHApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB3AD71201E1E3A006B9F41 /* Build configuration list for PBXProject "PAKHApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB3AD86201E1E3A006B9F41 /* Debug */,
+				DFB3AD87201E1E3A006B9F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB3AD88201E1E3A006B9F41 /* Build configuration list for PBXNativeTarget "PAKHApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB3AD89201E1E3A006B9F41 /* Debug */,
+				DFB3AD8A201E1E3A006B9F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFB3AD6E201E1E3A006B9F41 /* Project object */;
+}
